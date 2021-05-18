@@ -1,0 +1,10 @@
+---
+title: "Prova 4intelligence - João Ricardo Kunde"
+subtile: "Prova Economia"
+output: html_notebook
+---
+
+```{r}
+Data <- read.csv(file.choose(), na.strings="", stringsAsFactors=T)
+head(Data)
+```
